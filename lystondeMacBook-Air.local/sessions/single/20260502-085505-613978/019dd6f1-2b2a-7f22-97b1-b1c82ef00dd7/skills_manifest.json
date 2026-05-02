@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "available_skill_count": 8,
+  "used_skill_count": 2,
+  "bundled_skill_count": 1,
+  "skills": [
+    {
+      "name": "imagegen",
+      "skill_file": "/Users/lyston/.codex/skills/.system/imagegen/SKILL.md",
+      "source_root": "codex",
+      "relative_dir": ".system/imagegen",
+      "location_kind": "system",
+      "used": false,
+      "usage_count": 0,
+      "bundled": false,
+      "bundle_path": "",
+      "content_hash": "",
+      "dependency_level": "available",
+      "evidence": [
+        "available_in_context"
+      ]
+    },
+    {
+      "name": "openai-docs",
+      "skill_file": "/Users/lyston/.codex/skills/.system/openai-docs/SKILL.md",
+      "source_root": "codex",
+      "relative_dir": ".system/openai-docs",
+      "location_kind": "system",
+      "used": true,
+      "usage_count": 1,
+      "bundled": false,
+      "bundle_path": "",
+      "content_hash": "",
+      "dependency_level": "required",
+      "evidence": [
+        "explicit_skill_usage"
+      ]
+    },
+    {
+      "name": "plugin-creator",
+      "skill_file": "/Users/lyston/.codex/skills/.system/plugin-creator/SKILL.md",
+      "source_root": "codex",
+      "relative_dir": ".system/plugin-creator",
+      "location_kind": "system",
+      "used": false,
+      "usage_count": 0,
+      "bundled": false,
+      "bundle_path": "",
+      "content_hash": "",
+      "dependency_level": "available",
+      "evidence": [
+        "available_in_context"
+      ]
+    },
+    {
+      "name": "skill-creator",
+      "skill_file": "/Users/lyston/.codex/skills/.system/skill-creator/SKILL.md",
+      "source_root": "codex",
+      "relative_dir": ".system/skill-creator",
+      "location_kind": "system",
+      "used": false,
+      "usage_count": 0,
+      "bundled": false,
+      "bundle_path": "",
+      "content_hash": "",
+      "dependency_level": "available",
+      "evidence": [
+        "available_in_context"
+      ]
+    },
+    {
+      "name": "skill-installer",
+      "skill_file": "/Users/lyston/.codex/skills/.system/skill-installer/SKILL.md",
+      "source_root": "codex",
+      "relative_dir": ".system/skill-installer",
+      "location_kind": "system",
+      "used": false,
+      "usage_count": 0,
+      "bundled": false,
+      "bundle_path": "",
+      "content_hash": "",
+      "dependency_level": "available",
+      "evidence": [
+        "available_in_context"
+      ]
+    },
+    {
+      "name": "agent-reach",
+      "skill_file": "/Users/lyston/.agents/skills/agent-reach/SKILL.md",
+      "source_root": "agents",
+      "relative_dir": "agent-reach",
+      "location_kind": "custom",
+      "used": false,
+      "usage_count": 0,
+      "bundled": false,
+      "bundle_path": "",
+      "content_hash": "",
+      "dependency_level": "available",
+      "evidence": [
+        "available_in_context"
+      ]
+    },
+    {
+      "name": "browser-use:browser",
+      "skill_file": "/Users/lyston/.codex/plugins/cache/openai-bundled/browser-use/0.1.0-alpha1/skills/browser/SKILL.md",
+      "source_root": "unknown",
+      "relative_dir": "",
+      "location_kind": "custom",
+      "used": false,
+      "usage_count": 0,
+      "bundled": false,
+      "bundle_path": "",
+      "content_hash": "",
+      "dependency_level": "available",
+      "evidence": [
+        "available_in_context"
+      ]
+    },
+    {
+      "name": "mindos-zh",
+      "skill_file": "/Users/lyston/.agents/skills/mindos-zh/SKILL.md",
+      "source_root": "agents",
+      "relative_dir": "mindos-zh",
+      "location_kind": "custom",
+      "used": true,
+      "usage_count": 8,
+      "bundled": true,
+      "bundle_path": "skills/agents/mindos-zh",
+      "content_hash": "b0d2bf4452e568862b0aaa1ec71a97fc442f2910a81fa7fcee7d4b3d58269061",
+      "dependency_level": "required",
+      "evidence": [
+        "explicit_skill_usage"
+      ]
+    }
+  ]
+}
