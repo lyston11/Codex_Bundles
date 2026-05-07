@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "available_skill_count": 1,
+  "used_skill_count": 1,
+  "bundled_skill_count": 1,
+  "skills": [
+    {
+      "name": "codex-md-docs",
+      "skill_file": "/Users/lyston/.codex/skills/codex-md-docs/SKILL.md",
+      "source_root": "codex",
+      "relative_dir": "codex-md-docs",
+      "location_kind": "custom",
+      "used": true,
+      "usage_count": 1,
+      "bundled": true,
+      "bundle_path": "skills/codex/codex-md-docs",
+      "content_hash": "1996bc5ee1c7bb6c7106c5495d1725efabca97bea247b08ebea6c84527877f87",
+      "dependency_level": "required",
+      "evidence": [
+        "skills_transfer"
+      ]
+    }
+  ]
+}
