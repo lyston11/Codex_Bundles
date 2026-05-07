@@ -1,0 +1,7 @@
+interface:
+  display_name: "Codex Markdown Docs"
+  short_description: "Organize Codex Obsidian docs by context."
+  default_prompt: "Use $codex-md-docs to create or update a Markdown note in my Codex Obsidian space, keeping topic indexes and device/environment context correct."
+
+policy:
+  allow_implicit_invocation: true

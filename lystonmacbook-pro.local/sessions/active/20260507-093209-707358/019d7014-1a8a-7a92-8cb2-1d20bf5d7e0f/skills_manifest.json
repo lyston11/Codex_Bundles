@@ -1,0 +1,248 @@
+{
+  "schema_version": 1,
+  "available_skill_count": 15,
+  "used_skill_count": 6,
+  "bundled_skill_count": 0,
+  "skills": [
+    {
+      "name": "cherry-pr-test",
+      "skill_file": "/Users/lyston/PycharmProjects/cherry-studio-v2/.agents/skills/cherry-pr-test/SKILL.md",
+      "source_root": "agents",
+      "relative_dir": "cherry-pr-test",
+      "location_kind": "custom",
+      "used": true,
+      "usage_count": 6,
+      "bundled": false,
+      "bundle_path": "",
+      "content_hash": "",
+      "dependency_level": "required",
+      "evidence": [
+        "explicit_skill_usage"
+      ]
+    },
+    {
+      "name": "create-skill",
+      "skill_file": "/Users/lyston/PycharmProjects/cherry-studio-v2/.agents/skills/create-skill/SKILL.md",
+      "source_root": "agents",
+      "relative_dir": "create-skill",
+      "location_kind": "custom",
+      "used": false,
+      "usage_count": 0,
+      "bundled": false,
+      "bundle_path": "",
+      "content_hash": "",
+      "dependency_level": "available",
+      "evidence": [
+        "available_in_context"
+      ]
+    },
+    {
+      "name": "gh-create-issue",
+      "skill_file": "/Users/lyston/PycharmProjects/cherry-studio-v2/.agents/skills/gh-create-issue/SKILL.md",
+      "source_root": "agents",
+      "relative_dir": "gh-create-issue",
+      "location_kind": "custom",
+      "used": true,
+      "usage_count": 4,
+      "bundled": false,
+      "bundle_path": "",
+      "content_hash": "",
+      "dependency_level": "required",
+      "evidence": [
+        "explicit_skill_usage"
+      ]
+    },
+    {
+      "name": "gh-create-pr",
+      "skill_file": "/Users/lyston/PycharmProjects/cherry-studio-v2/.agents/skills/gh-create-pr/SKILL.md",
+      "source_root": "agents",
+      "relative_dir": "gh-create-pr",
+      "location_kind": "custom",
+      "used": true,
+      "usage_count": 4,
+      "bundled": false,
+      "bundle_path": "",
+      "content_hash": "",
+      "dependency_level": "required",
+      "evidence": [
+        "explicit_skill_usage"
+      ]
+    },
+    {
+      "name": "gh-pr-review",
+      "skill_file": "/Users/lyston/PycharmProjects/cherry-studio-v2/.agents/skills/gh-pr-review/SKILL.md",
+      "source_root": "agents",
+      "relative_dir": "gh-pr-review",
+      "location_kind": "custom",
+      "used": false,
+      "usage_count": 0,
+      "bundled": false,
+      "bundle_path": "",
+      "content_hash": "",
+      "dependency_level": "available",
+      "evidence": [
+        "available_in_context"
+      ]
+    },
+    {
+      "name": "prepare-release",
+      "skill_file": "/Users/lyston/PycharmProjects/cherry-studio-v2/.agents/skills/prepare-release/SKILL.md",
+      "source_root": "agents",
+      "relative_dir": "prepare-release",
+      "location_kind": "custom",
+      "used": false,
+      "usage_count": 0,
+      "bundled": false,
+      "bundle_path": "",
+      "content_hash": "",
+      "dependency_level": "available",
+      "evidence": [
+        "available_in_context"
+      ]
+    },
+    {
+      "name": "v2-data-api",
+      "skill_file": "/Users/lyston/PycharmProjects/cherry-studio-v2/.agents/skills/v2-data-api/SKILL.md",
+      "source_root": "agents",
+      "relative_dir": "v2-data-api",
+      "location_kind": "custom",
+      "used": true,
+      "usage_count": 5,
+      "bundled": false,
+      "bundle_path": "",
+      "content_hash": "",
+      "dependency_level": "required",
+      "evidence": [
+        "explicit_skill_usage"
+      ]
+    },
+    {
+      "name": "v2-migrator",
+      "skill_file": "/Users/lyston/PycharmProjects/cherry-studio-v2/.agents/skills/v2-migrator/SKILL.md",
+      "source_root": "agents",
+      "relative_dir": "v2-migrator",
+      "location_kind": "custom",
+      "used": false,
+      "usage_count": 0,
+      "bundled": false,
+      "bundle_path": "",
+      "content_hash": "",
+      "dependency_level": "available",
+      "evidence": [
+        "available_in_context"
+      ]
+    },
+    {
+      "name": "v2-renderer",
+      "skill_file": "/Users/lyston/PycharmProjects/cherry-studio-v2/.agents/skills/v2-renderer/SKILL.md",
+      "source_root": "agents",
+      "relative_dir": "v2-renderer",
+      "location_kind": "custom",
+      "used": true,
+      "usage_count": 10,
+      "bundled": false,
+      "bundle_path": "",
+      "content_hash": "",
+      "dependency_level": "required",
+      "evidence": [
+        "explicit_skill_usage"
+      ]
+    },
+    {
+      "name": "vercel-react-best-practices",
+      "skill_file": "/Users/lyston/PycharmProjects/cherry-studio-v2/.agents/skills/vercel-react-best-practices/SKILL.md",
+      "source_root": "agents",
+      "relative_dir": "vercel-react-best-practices",
+      "location_kind": "custom",
+      "used": true,
+      "usage_count": 1,
+      "bundled": false,
+      "bundle_path": "",
+      "content_hash": "",
+      "dependency_level": "required",
+      "evidence": [
+        "explicit_skill_usage"
+      ]
+    },
+    {
+      "name": "imagegen",
+      "skill_file": "/Users/lyston/.codex/skills/.system/imagegen/SKILL.md",
+      "source_root": "codex",
+      "relative_dir": ".system/imagegen",
+      "location_kind": "system",
+      "used": false,
+      "usage_count": 0,
+      "bundled": false,
+      "bundle_path": "",
+      "content_hash": "",
+      "dependency_level": "available",
+      "evidence": [
+        "available_in_context"
+      ]
+    },
+    {
+      "name": "openai-docs",
+      "skill_file": "/Users/lyston/.codex/skills/.system/openai-docs/SKILL.md",
+      "source_root": "codex",
+      "relative_dir": ".system/openai-docs",
+      "location_kind": "system",
+      "used": false,
+      "usage_count": 0,
+      "bundled": false,
+      "bundle_path": "",
+      "content_hash": "",
+      "dependency_level": "available",
+      "evidence": [
+        "available_in_context"
+      ]
+    },
+    {
+      "name": "plugin-creator",
+      "skill_file": "/Users/lyston/.codex/skills/.system/plugin-creator/SKILL.md",
+      "source_root": "codex",
+      "relative_dir": ".system/plugin-creator",
+      "location_kind": "system",
+      "used": false,
+      "usage_count": 0,
+      "bundled": false,
+      "bundle_path": "",
+      "content_hash": "",
+      "dependency_level": "available",
+      "evidence": [
+        "available_in_context"
+      ]
+    },
+    {
+      "name": "skill-creator",
+      "skill_file": "/Users/lyston/.codex/skills/.system/skill-creator/SKILL.md",
+      "source_root": "codex",
+      "relative_dir": ".system/skill-creator",
+      "location_kind": "system",
+      "used": false,
+      "usage_count": 0,
+      "bundled": false,
+      "bundle_path": "",
+      "content_hash": "",
+      "dependency_level": "available",
+      "evidence": [
+        "available_in_context"
+      ]
+    },
+    {
+      "name": "skill-installer",
+      "skill_file": "/Users/lyston/.codex/skills/.system/skill-installer/SKILL.md",
+      "source_root": "codex",
+      "relative_dir": ".system/skill-installer",
+      "location_kind": "system",
+      "used": false,
+      "usage_count": 0,
+      "bundled": false,
+      "bundle_path": "",
+      "content_hash": "",
+      "dependency_level": "available",
+      "evidence": [
+        "available_in_context"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "schema_version": 1,
+  "available_skill_count": 12,
+  "used_skill_count": 0,
+  "bundled_skill_count": 0,
+  "skills": [
+    {
+      "name": "codex-notes",
+      "skill_file": "/Users/lyston/.codex/skills/codex-notes/SKILL.md",
+      "source_root": "codex",
+      "relative_dir": "codex-notes",
+      "location_kind": "custom",
+      "used": false,
+      "usage_count": 0,
+      "bundled": false,
+      "bundle_path": "",
+      "content_hash": "",
+      "dependency_level": "available",
+      "evidence": [
+        "available_in_context"
+      ]
+    },
+    {
+      "name": "defuddle",
+      "skill_file": "/Users/lyston/.agents/skills/defuddle/SKILL.md",
+      "source_root": "agents",
+      "relative_dir": "defuddle",
+      "location_kind": "custom",
+      "used": false,
+      "usage_count": 0,
+      "bundled": false,
+      "bundle_path": "",
+      "content_hash": "",
+      "dependency_level": "available",
+      "evidence": [
+        "available_in_context"
+      ]
+    },
+    {
+      "name": "json-canvas",
+      "skill_file": "/Users/lyston/.agents/skills/json-canvas/SKILL.md",
+      "source_root": "agents",
+      "relative_dir": "json-canvas",
+      "location_kind": "custom",
+      "used": false,
+      "usage_count": 0,
+      "bundled": false,
+      "bundle_path": "",
+      "content_hash": "",
+      "dependency_level": "available",
+      "evidence": [
+        "available_in_context"
+      ]
+    },
+    {
+      "name": "notebooklm",
+      "skill_file": "/Users/lyston/.agents/skills/notebooklm/SKILL.md",
+      "source_root": "agents",
+      "relative_dir": "notebooklm",
+      "location_kind": "custom",
+      "used": false,
+      "usage_count": 0,
+      "bundled": false,
+      "bundle_path": "",
+      "content_hash": "",
+      "dependency_level": "available",
+      "evidence": [
+        "available_in_context"
+      ]
+    },
+    {
+      "name": "obsidian-bases",
+      "skill_file": "/Users/lyston/.agents/skills/obsidian-bases/SKILL.md",
+      "source_root": "agents",
+      "relative_dir": "obsidian-bases",
+      "location_kind": "custom",
+      "used": false,
+      "usage_count": 0,
+      "bundled": false,
+      "bundle_path": "",
+      "content_hash": "",
+      "dependency_level": "available",
+      "evidence": [
+        "available_in_context"
+      ]
+    },
+    {
+      "name": "obsidian-cli",
+      "skill_file": "/Users/lyston/.agents/skills/obsidian-cli/SKILL.md",
+      "source_root": "agents",
+      "relative_dir": "obsidian-cli",
+      "location_kind": "custom",
+      "used": false,
+      "usage_count": 0,
+      "bundled": false,
+      "bundle_path": "",
+      "content_hash": "",
+      "dependency_level": "available",
+      "evidence": [
+        "available_in_context"
+      ]
+    },
+    {
+      "name": "obsidian-markdown",
+      "skill_file": "/Users/lyston/.agents/skills/obsidian-markdown/SKILL.md",
+      "source_root": "agents",
+      "relative_dir": "obsidian-markdown",
+      "location_kind": "custom",
+      "used": false,
+      "usage_count": 0,
+      "bundled": false,
+      "bundle_path": "",
+      "content_hash": "",
+      "dependency_level": "available",
+      "evidence": [
+        "available_in_context"
+      ]
+    },
+    {
+      "name": "imagegen",
+      "skill_file": "/Users/lyston/.codex/skills/.system/imagegen/SKILL.md",
+      "source_root": "codex",
+      "relative_dir": ".system/imagegen",
+      "location_kind": "system",
+      "used": false,
+      "usage_count": 0,
+      "bundled": false,
+      "bundle_path": "",
+      "content_hash": "",
+      "dependency_level": "available",
+      "evidence": [
+        "available_in_context"
+      ]
+    },
+    {
+      "name": "openai-docs",
+      "skill_file": "/Users/lyston/.codex/skills/.system/openai-docs/SKILL.md",
+      "source_root": "codex",
+      "relative_dir": ".system/openai-docs",
+      "location_kind": "system",
+      "used": false,
+      "usage_count": 0,
+      "bundled": false,
+      "bundle_path": "",
+      "content_hash": "",
+      "dependency_level": "available",
+      "evidence": [
+        "available_in_context"
+      ]
+    },
+    {
+      "name": "plugin-creator",
+      "skill_file": "/Users/lyston/.codex/skills/.system/plugin-creator/SKILL.md",
+      "source_root": "codex",
+      "relative_dir": ".system/plugin-creator",
+      "location_kind": "system",
+      "used": false,
+      "usage_count": 0,
+      "bundled": false,
+      "bundle_path": "",
+      "content_hash": "",
+      "dependency_level": "available",
+      "evidence": [
+        "available_in_context"
+      ]
+    },
+    {
+      "name": "skill-creator",
+      "skill_file": "/Users/lyston/.codex/skills/.system/skill-creator/SKILL.md",
+      "source_root": "codex",
+      "relative_dir": ".system/skill-creator",
+      "location_kind": "system",
+      "used": false,
+      "usage_count": 0,
+      "bundled": false,
+      "bundle_path": "",
+      "content_hash": "",
+      "dependency_level": "available",
+      "evidence": [
+        "available_in_context"
+      ]
+    },
+    {
+      "name": "skill-installer",
+      "skill_file": "/Users/lyston/.codex/skills/.system/skill-installer/SKILL.md",
+      "source_root": "codex",
+      "relative_dir": ".system/skill-installer",
+      "location_kind": "system",
+      "used": false,
+      "usage_count": 0,
+      "bundled": false,
+      "bundle_path": "",
+      "content_hash": "",
+      "dependency_level": "available",
+      "evidence": [
+        "available_in_context"
+      ]
+    }
+  ]
+}
