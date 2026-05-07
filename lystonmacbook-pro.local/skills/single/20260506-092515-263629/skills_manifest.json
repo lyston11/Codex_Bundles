@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "available_skill_count": 1,
+  "used_skill_count": 1,
+  "bundled_skill_count": 1,
+  "skills": [
+    {
+      "name": "codex-md-docs",
+      "skill_file": "/root/.codex/skills/codex-md-docs/SKILL.md",
+      "source_root": "codex",
+      "relative_dir": "codex-md-docs",
+      "location_kind": "custom",
+      "used": true,
+      "usage_count": 1,
+      "bundled": true,
+      "bundle_path": "skills/codex/codex-md-docs",
+      "content_hash": "013341d7cedf092a8c7b8fcaaebf7438a8a05566ba818768970d1c4b50f33d00",
+      "dependency_level": "required",
+      "evidence": [
+        "skills_transfer"
+      ]
+    }
+  ]
+}

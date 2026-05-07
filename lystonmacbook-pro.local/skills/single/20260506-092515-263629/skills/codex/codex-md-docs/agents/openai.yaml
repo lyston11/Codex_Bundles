@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex Markdown Docs"
+  short_description: "Write docs into the Codex Obsidian vault"
+  default_prompt: "Use $codex-md-docs to save this note into my Codex documentation space."
