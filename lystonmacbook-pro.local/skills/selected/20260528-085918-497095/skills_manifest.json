@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "available_skill_count": 5,
+  "used_skill_count": 5,
+  "bundled_skill_count": 5,
+  "skills": [
+    {
+      "name": "agent-reach",
+      "skill_file": "/Users/lyston/.agents/skills/agent-reach/SKILL.md",
+      "source_root": "agents",
+      "relative_dir": "agent-reach",
+      "location_kind": "custom",
+      "used": true,
+      "usage_count": 1,
+      "bundled": true,
+      "bundle_path": "skills/agents/agent-reach",
+      "content_hash": "79c97de4b24bd1596dd0672983c0b52f7911463b5475e25373c00748edc05c3f",
+      "dependency_level": "required",
+      "evidence": [
+        "skills_transfer"
+      ]
+    },
+    {
+      "name": "mindos-zh",
+      "skill_file": "/Users/lyston/.agents/skills/mindos-zh/SKILL.md",
+      "source_root": "agents",
+      "relative_dir": "mindos-zh",
+      "location_kind": "custom",
+      "used": true,
+      "usage_count": 1,
+      "bundled": true,
+      "bundle_path": "skills/agents/mindos-zh",
+      "content_hash": "b0d2bf4452e568862b0aaa1ec71a97fc442f2910a81fa7fcee7d4b3d58269061",
+      "dependency_level": "required",
+      "evidence": [
+        "skills_transfer"
+      ]
+    },
+    {
+      "name": "ad-creative-script",
+      "skill_file": "/Users/lyston/.codex/skills/ad-creative-script/SKILL.md",
+      "source_root": "codex",
+      "relative_dir": "ad-creative-script",
+      "location_kind": "custom",
+      "used": true,
+      "usage_count": 1,
+      "bundled": true,
+      "bundle_path": "skills/codex/ad-creative-script",
+      "content_hash": "760e1894a82278b583e9379119a097ae757d98db86d2a005677393f90227218c",
+      "dependency_level": "required",
+      "evidence": [
+        "skills_transfer"
+      ]
+    },
+    {
+      "name": "codex-md-docs",
+      "skill_file": "/Users/lyston/.codex/skills/codex-md-docs/SKILL.md",
+      "source_root": "codex",
+      "relative_dir": "codex-md-docs",
+      "location_kind": "custom",
+      "used": true,
+      "usage_count": 1,
+      "bundled": true,
+      "bundle_path": "skills/codex/codex-md-docs",
+      "content_hash": "03ad23760d53197c83b113799eb01b0be64d2dca4bbf3a0ab71b175ec50d3cd5",
+      "dependency_level": "required",
+      "evidence": [
+        "skills_transfer"
+      ]
+    },
+    {
+      "name": "tvc-director",
+      "skill_file": "/Users/lyston/.codex/skills/tvc-director/SKILL.md",
+      "source_root": "codex",
+      "relative_dir": "tvc-director",
+      "location_kind": "custom",
+      "used": true,
+      "usage_count": 1,
+      "bundled": true,
+      "bundle_path": "skills/codex/tvc-director",
+      "content_hash": "d3ae3ec17b877b6f8c1569fbe892eea122ba424c17f1cbf9e68c512ac00f122e",
+      "dependency_level": "required",
+      "evidence": [
+        "skills_transfer"
+      ]
+    }
+  ]
+}
