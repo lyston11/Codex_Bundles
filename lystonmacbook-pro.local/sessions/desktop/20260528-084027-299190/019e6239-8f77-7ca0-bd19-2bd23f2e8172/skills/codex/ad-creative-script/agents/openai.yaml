@@ -1,0 +1,4 @@
+interface:
+  display_name: "Ad Creative Script"
+  short_description: "广告创意剧本、分镜与营销短片"
+  default_prompt: "Use $ad-creative-script to create a bold advertising concept, script, and storyboard."

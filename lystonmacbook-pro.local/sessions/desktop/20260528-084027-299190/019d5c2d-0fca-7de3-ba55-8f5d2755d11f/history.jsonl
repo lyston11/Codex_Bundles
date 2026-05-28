@@ -1,0 +1,6 @@
+{"session_id":"019d5c2d-0fca-7de3-ba55-8f5d2755d11f","ts":1775367998,"text":"检查一下我这个 demo_fastapi的 conda 环境缺少什么包关于这个项目的"}
+{"session_id":"019d5c2d-0fca-7de3-ba55-8f5d2755d11f","ts":1775368385,"text":"创建 demo 这个名字的 conda 环境，然后在里面下载 uv，再用 uv pip安装这些包"}
+{"session_id":"019d5c2d-0fca-7de3-ba55-8f5d2755d11f","ts":1775368852,"text":"检查一下这个项目还缺什么包，都导入一下"}
+{"session_id":"019d5c2d-0fca-7de3-ba55-8f5d2755d11f","ts":1775370000,"text":"修改一下 requirements"}
+{"session_id":"019d5c2d-0fca-7de3-ba55-8f5d2755d11f","ts":1775370116,"text":"执行"}
+{"session_id":"019d5c2d-0fca-7de3-ba55-8f5d2755d11f","ts":1775370398,"text":"/opt/homebrew/Caskroom/miniforge/base/envs/demo/bin/python /Users/lyston/PycharmProjects/ai_agents/langgraph/2.9-langgraph-rag-memory.py \nTraceback (most recent call last):\n  File \"/Users/lyston/PycharmProjects/ai_agents/langgraph/2.9-langgraph-rag-memory.py\", line 4, in <module>\n    import psycopg\nModuleNotFoundError: No module named 'psycopg'"}

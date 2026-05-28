@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "available_skill_count": 9,
+  "used_skill_count": 0,
+  "bundled_skill_count": 0,
+  "skills": [
+    {
+      "name": "Excel",
+      "skill_file": "/Users/lyston/.codex/skills/codex-primary-runtime/spreadsheets/SKILL.md",
+      "source_root": "codex",
+      "relative_dir": "codex-primary-runtime/spreadsheets",
+      "location_kind": "runtime",
+      "used": false,
+      "usage_count": 0,
+      "bundled": false,
+      "bundle_path": "",
+      "content_hash": "",
+      "dependency_level": "available",
+      "evidence": [
+        "available_in_context"
+      ]
+    },
+    {
+      "name": "PowerPoint",
+      "skill_file": "/Users/lyston/.codex/skills/codex-primary-runtime/slides/SKILL.md",
+      "source_root": "codex",
+      "relative_dir": "codex-primary-runtime/slides",
+      "location_kind": "runtime",
+      "used": false,
+      "usage_count": 0,
+      "bundled": false,
+      "bundle_path": "",
+      "content_hash": "",
+      "dependency_level": "available",
+      "evidence": [
+        "available_in_context"
+      ]
+    },
+    {
+      "name": "agent-reach",
+      "skill_file": "/Users/lyston/.agents/skills/agent-reach/SKILL.md",
+      "source_root": "agents",
+      "relative_dir": "agent-reach",
+      "location_kind": "custom",
+      "used": false,
+      "usage_count": 0,
+      "bundled": false,
+      "bundle_path": "",
+      "content_hash": "",
+      "dependency_level": "available",
+      "evidence": [
+        "available_in_context"
+      ]
+    },
+    {
+      "name": "mindos-zh",
+      "skill_file": "/Users/lyston/.agents/skills/mindos-zh/SKILL.md",
+      "source_root": "agents",
+      "relative_dir": "mindos-zh",
+      "location_kind": "custom",
+      "used": false,
+      "usage_count": 0,
+      "bundled": false,
+      "bundle_path": "",
+      "content_hash": "",
+      "dependency_level": "available",
+      "evidence": [
+        "available_in_context"
+      ]
+    },
+    {
+      "name": "imagegen",
+      "skill_file": "/Users/lyston/.codex/skills/.system/imagegen/SKILL.md",
+      "source_root": "codex",
+      "relative_dir": ".system/imagegen",
+      "location_kind": "system",
+      "used": false,
+      "usage_count": 0,
+      "bundled": false,
+      "bundle_path": "",
+      "content_hash": "",
+      "dependency_level": "available",
+      "evidence": [
+        "available_in_context"
+      ]
+    },
+    {
+      "name": "openai-docs",
+      "skill_file": "/Users/lyston/.codex/skills/.system/openai-docs/SKILL.md",
+      "source_root": "codex",
+      "relative_dir": ".system/openai-docs",
+      "location_kind": "system",
+      "used": false,
+      "usage_count": 0,
+      "bundled": false,
+      "bundle_path": "",
+      "content_hash": "",
+      "dependency_level": "available",
+      "evidence": [
+        "available_in_context"
+      ]
+    },
+    {
+      "name": "plugin-creator",
+      "skill_file": "/Users/lyston/.codex/skills/.system/plugin-creator/SKILL.md",
+      "source_root": "codex",
+      "relative_dir": ".system/plugin-creator",
+      "location_kind": "system",
+      "used": false,
+      "usage_count": 0,
+      "bundled": false,
+      "bundle_path": "",
+      "content_hash": "",
+      "dependency_level": "available",
+      "evidence": [
+        "available_in_context"
+      ]
+    },
+    {
+      "name": "skill-creator",
+      "skill_file": "/Users/lyston/.codex/skills/.system/skill-creator/SKILL.md",
+      "source_root": "codex",
+      "relative_dir": ".system/skill-creator",
+      "location_kind": "system",
+      "used": false,
+      "usage_count": 0,
+      "bundled": false,
+      "bundle_path": "",
+      "content_hash": "",
+      "dependency_level": "available",
+      "evidence": [
+        "available_in_context"
+      ]
+    },
+    {
+      "name": "skill-installer",
+      "skill_file": "/Users/lyston/.codex/skills/.system/skill-installer/SKILL.md",
+      "source_root": "codex",
+      "relative_dir": ".system/skill-installer",
+      "location_kind": "system",
+      "used": false,
+      "usage_count": 0,
+      "bundled": false,
+      "bundle_path": "",
+      "content_hash": "",
+      "dependency_level": "available",
+      "evidence": [
+        "available_in_context"
+      ]
+    }
+  ]
+}
